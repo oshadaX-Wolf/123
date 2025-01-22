@@ -10,7 +10,7 @@ function convertToBool(text, fault = 'true') {
 
 module.exports = {
    SESSION_ID: process.env.SESSION_ID === undefined ? '' : process.env.SESSION_ID, 
-   DATABASE_URL: process.env.DATABASE_URL === undefined ? 'postgres://koyeb-adm:qFWVex1dO6Mt@ep-shrill-surf-a22zn6z2.eu-central-1.pg.koyeb.app/koyebdb' : process.env.DATABASE_URL,
+   DATABASE_URL: process.env.DATABASE_URL === undefined ? 'postgres://vajiratech_user:oSIFl2xmSojMZ0rkzdd0g0W6msuVTpNN@dpg-cpd7fjv109ks73e5gtig-a.frankfurt-postgres.render.com/vajiratech' : process.env.DATABASE_URL,
    PREFIX: process.env.PREFIX || ".",
    JID: process.env.JID || `94755773910@s.whatsapp.net` , 
    FOOTER: process.env.FOOTER === undefined ? 'TC TEAM MOVIE DL' : process.env.FOOTER
